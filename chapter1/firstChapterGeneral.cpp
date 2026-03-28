@@ -75,11 +75,23 @@ void checkUninitVar()
     int x;
 
     std::cout << x << '\n';
+}
+
+
+void multiplyKeyboard()
+{
+    std::cout << "Write a number to double: " << '\n';
+
+    int mult;
+    std::cin >> mult;
+
+    std::cout << "The double of your number is " << mult * 2 << '\n';
+
+    std::cout << "The triple of your number is " << mult * 3 << '\n';   
 
 }
+
 int main()
 {
-    checkUninitVar();
-
-    return 0;
+    multiplyByTwo();
 }
